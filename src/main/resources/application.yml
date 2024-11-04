@@ -1,0 +1,16 @@
+# Tomcat
+server:
+  port: 9010
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: report
+  profiles:
+    # 环境配置
+    active: dev
+report:
+  template: /data/templates
+  outPath: /data/out
+  publishPath: /publish
